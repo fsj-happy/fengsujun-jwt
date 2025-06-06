@@ -1,4 +1,4 @@
-module gitee.com/feng-sujun/jwt
+module github.com/fsj-happy/fengsujun-jwt
 
 go 1.24
 
