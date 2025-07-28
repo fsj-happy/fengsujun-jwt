@@ -1,7 +1,6 @@
 package pkg
 
 import (
-	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v5"
 	"log"
@@ -36,7 +35,6 @@ func ParseToken(tokenString string) (*MyCustomClaims, error) {
 	if err != nil {
 		log.Fatal(err)
 	} else if claims, ok := token.Claims.(*MyCustomClaims); ok {
-		fmt.Println(claims.UserId, claims.RegisteredClaims.Issuer)
 		return claims, nil
 	} else {
 		log.Fatal("unknown claims type, cannot proceed")

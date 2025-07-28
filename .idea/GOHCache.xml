@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="Message">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/websocket.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MyCustomClaims">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/jwt.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Node">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/pkg/websocket.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/pkg/jwt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1753711020448" />
+              <option name="schema">
+                <list>
+                  <option value="MyCustomClaims" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/mqtt.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751898871289" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/pkg/websocket.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1751898895311" />
+              <option name="schema">
+                <list>
+                  <option value="Node" />
+                  <option value="Message" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="message" value="Message" />
+        <entry key="my_custom_claims" value="MyCustomClaims" />
+        <entry key="node" value="Node" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1753711012842" />
+  </component>
+</project>
